@@ -4,12 +4,13 @@ import Link from 'next/link';
 import { Button, buttonVariants } from '@/components/ui/button';
 
 import coffee from '@/public/coffee.svg';
+import flower from '@/public/flower.png';
 
 export default function Hero() {
   return (
     <div className='grid md:grid-cols-2 gap-8 md:gap-16 w-full container mx-auto py-4'>
       <div className='flex flex-col justify-center items-start space-y-6 md:space-y-12 md:px-4'>
-        <div className='flex flex-col gap-4'>
+        <div className='flex flex-col gap-4 relative'>
           <h1 className='font-semibold text-4xl md:text-7xl'>
             Tumbuh <span className='text-white'>Lestari</span>
           </h1>
@@ -24,6 +25,13 @@ export default function Hero() {
         >
           Explore
         </Link>
+        <Image
+          src={flower}
+          alt='Flower'
+          height={256}
+          width={256}
+          className='absolute w-24 md:w-40 top-16 md:top-40 -left-4 opacity-65 -z-50'
+        />
       </div>
       <div className='md:drop-shadow-[0_60px_35px_rgba(0,0,0,0.4)] md:p-8'>
         <Image src={coffee} alt='Coffee' width={512} className='w-full' />
