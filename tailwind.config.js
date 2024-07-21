@@ -73,6 +73,7 @@ module.exports = {
       },
       backgroundImage: {
         'about-us-pattern': "url('/about-us/bg.png')",
+        'about-background': "url('/about/bg.png')",
       },
     },
   },
