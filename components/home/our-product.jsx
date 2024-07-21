@@ -35,7 +35,7 @@ export default async function OurProduct() {
       </div>
       <div className='flex flex-col items-end gap-12'>
         <Link
-          href='/product'
+          href='/products'
           className={buttonVariants({ variant: 'default' })}
         >
           Lihat Semua

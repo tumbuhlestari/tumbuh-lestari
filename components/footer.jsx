@@ -41,10 +41,10 @@ export default function Footer() {
                 href='mailto:tumbuhlestari01@gmail.com'
                 className='hover:font-semibold'
               >
-                tumbuhlestari01@gmail.com
+                tumbuhlestaritalks@gmail.com
               </Link>
               <Link href='tel:+6280981823808' className='hover:font-semibold'>
-                +6280981823808
+                +62 838 3203 3996
               </Link>
             </div>
           </div>
