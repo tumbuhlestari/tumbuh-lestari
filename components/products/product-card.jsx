@@ -28,8 +28,8 @@ export default function ProductCard({ product }) {
           className='w-64 h-64 mx-auto'
         />
         <div className='space-y-4'>
-          <CardTitle className='font-bold'>{product.name}</CardTitle>
-          <CardDescription className='text-white whitespace-pre-line'>
+          <CardTitle className='font-bold text-2xl'>{product.name}</CardTitle>
+          <CardDescription className='text-white whitespace-pre-line text-lg'>
             {product.description}
           </CardDescription>
         </div>
