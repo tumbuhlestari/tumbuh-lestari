@@ -35,7 +35,6 @@ export default function BlogCard({ post }) {
           </div>
           <Link
             href={`/blog/${post.id}`}
-            target='_blank'
             className={buttonVariants({ variant: 'default' })}
           >
             Lihat Selengkapnya
