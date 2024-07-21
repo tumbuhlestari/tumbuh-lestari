@@ -23,7 +23,7 @@ export default function Process() {
 
   return (
     <div className='container mx-auto my-32 relative'>
-      <div className='bg-[#C39A72] grid md:grid-cols-2 gap-8 md:gap-0 py-16 md:py-8 px-16 md:mx-16 rounded-2xl shadow-lg'>
+      <div className='bg-[#C39A72] grid md:grid-cols-2 gap-8 md:gap-0 py-8 md:py-16 px-8 md:px-16 md:mx-16 rounded-2xl shadow-lg'>
         <div className='pr-8 order-2 md:order-1'>
           <ol className='list-decimal list-inside space-y-8 md:space-y-12'>
             {process.map((item) => (
@@ -52,7 +52,7 @@ export default function Process() {
             alt='Coffee Beans'
             width={256}
             height={256}
-            className='absolute -top-36 right-8 z-10 hidden md:block'
+            className='absolute w-32 md:w-64 -top-24 md:-top-36 right-0 md:right-8 z-10 block'
           />
         </div>
       </div>

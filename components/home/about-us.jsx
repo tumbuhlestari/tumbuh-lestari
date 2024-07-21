@@ -47,7 +47,7 @@ export default function AboutUs() {
           <span className='text-white'>Nikmati kopi terbaik </span>dengan cita
           rasa otentik
         </h3>
-        <p className='text-white text-xl md:text-2xl text-justify'>
+        <p className='text-white text-lg md:text-2xl text-justify'>
           Sambutlah aroma segar dan kenikmatan yang tiada tara dengan setiap
           tegukan kopi kami. Kopi Tumbuh Lestari menghadirkan lebih dari sekadar
           secangkir kopi, Tapi di balik setiap biji yang dipanggang dengan
