@@ -7,10 +7,8 @@ export default function OurGarden() {
         <h2 className='text-3xl md:text-5xl font-bold'>
           Kebun <span className='text-white'>Kami</span>
         </h2>
-        <p className='text-lg md:text-xl text-white'>
-          Lorem ipsum dolor sit amet consectetur. Nisi at hendrerit pulvinar sit
-          id vitae elementum. Pharetra in pulvinar eu velit praesent pretium
-          volutpat.
+        <p className='text-lg md:text-2xl text-white'>
+          Segar dan Alami, Langsung Dari Kebun Kami
         </p>
       </div>
       <ImageCarousel />
