@@ -12,7 +12,7 @@ export default function History() {
         width={512}
         className='w-full'
       />
-      <div className='bg-about-us-pattern bg-cover bg-repeat py-64'>
+      <div className='bg-about-us-pattern bg-cover bg-repeat py-32 md:py-64'>
         <h2 className='text-3xl md:text-5xl font-bold text-center md:text-start'>
           Sejarah <span className='text-white'>Perusahaan</span>
         </h2>
