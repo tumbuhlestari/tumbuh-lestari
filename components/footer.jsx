@@ -39,7 +39,7 @@ export default function Footer() {
             <div className='flex flex-col gap-2'>
               <Link
                 href='mailto:tumbuhlestari01@gmail.com'
-                className='hover:font-semibold'
+                className='hover:font-semibold truncate'
               >
                 tumbuhlestaritalks@gmail.com
               </Link>
